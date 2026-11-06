@@ -1,0 +1,10 @@
+.venv/
+.venv-1/
+__pycache__/
+*.pyc
+.git/
+mlruns/
+mlflow.db
+data/
+tests/
+*.txt.txt

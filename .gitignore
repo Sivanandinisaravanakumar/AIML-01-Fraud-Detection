@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.mlflow/
+mlruns/
+mlflow.db
+.env
+.DS_Store
+.vscode/
+data/*.csv
+models/fraud_model.joblib
+data/*.csv
+models/fraud_model.joblib
