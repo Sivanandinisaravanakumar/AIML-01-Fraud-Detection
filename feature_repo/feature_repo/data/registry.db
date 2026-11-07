@@ -1,0 +1,71 @@
+
+C
+#
+__dummy"
+__dummy_idJfeature_repo
+¤Ğ¶×ØÕëÂ¤Ğ¶×ØÕëÂ
+s
+S
+card1Composite card identifier used as an entity proxy"card_keyJfeature_repo
+¤Ğ¶×ÕóÂÙÒ¶×Àúûô1"$cb909cfa-52d3-4444-964a-22af02f37730*˜Õ¶×¸şƒ92ö
+À
+card_fraud_featuresfeature_repocard"
+card_txn_count_1h"
+card_txn_count_24h"
+card_avg_amount_30d"
+amount_vs_card_average"
+device_changed"
+address_changed"
+device_missing*
+projectfraud-detection*
+datasetIEEE-CIS2€†°–:¡event_timestampZdata/fraud_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢fraud_transactions_source’ÙÒ¶×ÓŞè"ÙÒ¶×ÓŞè@b
+card_key’latest1
+¤Ğ¶×àÏúÂ˜Õ¶×€µê8
+€•ÜÊ€÷›Ò 0:ø
+×
+fraud_detection_v1feature_repo²
+card_fraud_features
+card_txn_count_1h
+card_txn_count_24h
+card_avg_amount_30d
+amount_vs_card_average
+device_changed
+address_changed
+device_missingBmevent_timestampZdata/fraud_features.parquet¢fraud_transactions_source’¤Ğ¶×˜¶š¢"¤Ğ¶×°¼ÜÂZfeatureView
+¤Ğ¶×ˆ¢Ã¤Ğ¶×ˆ¢ÃRÉ
+Æ
+,feast.infra.online_stores.sqlite.SqliteTable"•
+qC:\Users\sivan\Downloads\Capstone_Projects\AIML-01-Fraud-Detection\feature_repo\feature_repo\data\online_store.db feature_repo_card_fraud_featuresb°event_timestampZdata/fraud_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢fraud_transactions_sourceªfeature_repo’¤Ğ¶×˜¶š¢"¤Ğ¶×°¼ÜÂŠ`
+@
+feature_repo0IEEE-CIS Financial Fraud Detection Feature Store
+¤Ğ¶×è¦Ñ¡¤Ğ¶×è¦Ñ¡’œ	
+É
+card_fraud_featuresfeature_repo"feature_view*á
+À
+card_fraud_featuresfeature_repocard"
+card_txn_count_1h"
+card_txn_count_24h"
+card_avg_amount_30d"
+amount_vs_card_average"
+device_changed"
+address_changed"
+device_missing*
+projectfraud-detection*
+datasetIEEE-CIS2€†°–:¡event_timestampZdata/fraud_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢fraud_transactions_source’¤Ğ¶×˜¶š¢"¤Ğ¶×°¼ÜÂ@b
+card_key ’latest
+¤Ğ¶×àÏúÂ¤Ğ¶×àÏúÂ2¤Ğ¶× ¢ÃB$9de4ccc2-d77a-44db-a536-98e2a5b59aaa
+Í
+card_fraud_featuresfeature_repo"feature_view*ã
+À
+card_fraud_featuresfeature_repocard"
+card_txn_count_1h"
+card_txn_count_24h"
+card_avg_amount_30d"
+amount_vs_card_average"
+device_changed"
+address_changed"
+device_missing*
+projectfraud-detection*
+datasetIEEE-CIS2€†°–:¡event_timestampZdata/fraud_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢fraud_transactions_source’ÙÒ¶×ÓŞè"ÙÒ¶×ÓŞè@b
+card_key’latest
+¤Ğ¶×àÏúÂÙÒ¶×È‘õ 2ÙÒ¶×ØìöB$d5b9b952-3b42-4dbd-9826-658a837407bf

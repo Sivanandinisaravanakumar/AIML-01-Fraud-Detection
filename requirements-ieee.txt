@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+numpy
+xgboost
+scikit-learn
+joblib
+kafka-python
+pydantic
+feast==0.67.0
+pyarrow==26.0.1

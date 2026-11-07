@@ -1,0 +1,43 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ieee-fraud-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ieee-fraud-api
+  template:
+    metadata:
+      labels:
+        app: ieee-fraud-api
+    spec:
+      containers:
+        - name: ieee-fraud-api
+          image: fraud-detection-ieee-api:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8000
+          env:
+            - name: KAFKA_BOOTSTRAP_SERVERS
+              value: "host.docker.internal:9093"
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "2Gi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ieee-fraud-api
+spec:
+  type: NodePort
+  selector:
+    app: ieee-fraud-api
+  ports:
+    - port: 8000
+      targetPort: 8000
+      nodePort: 30082

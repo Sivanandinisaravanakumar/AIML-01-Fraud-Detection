@@ -11,3 +11,16 @@ data/*.csv
 models/fraud_model.joblib
 data/*.csv
 models/fraud_model.joblib
+
+# Keep datasets local - do not upload to GitHub
+/data/
+
+# Additional AIML-01 exclusions
+.venv-feast/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local dashboard data and model backups
+/reports/analyst_cases.csv
+/models/ieee_cis/threshold_backup.json

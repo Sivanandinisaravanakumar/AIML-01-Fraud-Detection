@@ -1,0 +1,48 @@
+{
+    "numeric": [
+        "TransactionDT",
+        "TransactionAmt",
+        "transaction_hour",
+        "transaction_day",
+        "card_txn_count_1h",
+        "card_txn_count_24h",
+        "card_avg_amount_30d",
+        "amount_vs_card_average",
+        "device_changed",
+        "address_changed",
+        "device_missing"
+    ],
+    "categorical": [
+        "card1",
+        "card2",
+        "card3",
+        "card5",
+        "card6",
+        "addr1",
+        "addr2",
+        "DeviceType",
+        "DeviceInfo"
+    ],
+    "all": [
+        "TransactionDT",
+        "TransactionAmt",
+        "transaction_hour",
+        "transaction_day",
+        "card_txn_count_1h",
+        "card_txn_count_24h",
+        "card_avg_amount_30d",
+        "amount_vs_card_average",
+        "device_changed",
+        "address_changed",
+        "device_missing",
+        "card1",
+        "card2",
+        "card3",
+        "card5",
+        "card6",
+        "addr1",
+        "addr2",
+        "DeviceType",
+        "DeviceInfo"
+    ]
+}

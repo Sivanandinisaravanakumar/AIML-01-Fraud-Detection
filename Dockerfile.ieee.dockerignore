@@ -1,0 +1,12 @@
+.venv/
+.venv-1/
+.venv-feast/
+.git/
+**/__pycache__/
+*.pyc
+mlruns/
+mlflow.db
+/data/
+**/*.csv
+**/*.zip
+**/*.pt

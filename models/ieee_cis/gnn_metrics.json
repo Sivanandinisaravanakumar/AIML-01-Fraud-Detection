@@ -1,0 +1,9 @@
+{
+  "average_precision": 0.1225243370258476,
+  "roc_auc": 0.5,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "validation_card_nodes": 2979,
+  "training_card_nodes": 11913
+}

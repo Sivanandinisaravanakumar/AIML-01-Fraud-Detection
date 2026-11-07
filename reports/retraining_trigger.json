@@ -1,0 +1,9 @@
+{
+    "dataset": "IEEE-CIS",
+    "total_features": 20,
+    "drifted_features": 3,
+    "drift_share": 0.15,
+    "drift_threshold": 0.5,
+    "retraining_required": false,
+    "action": "NO_ACTION"
+}

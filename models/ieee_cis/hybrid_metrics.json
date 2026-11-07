@@ -1,0 +1,37 @@
+{
+    "validation_transactions": 118108,
+    "training_transactions": 472432,
+    "xgboost_threshold": 0.7656832337379456,
+    "hybrid_weight_xgboost": 0.8,
+    "hybrid_weight_gnn": 0.2,
+    "xgboost_at_0.5": {
+        "PR_AUC": 0.3507331133926497,
+        "ROC_AUC": 0.881012950244468,
+        "Precision": 0.15834448677030782,
+        "Recall": 0.7442535688361964,
+        "F1": 0.2611316269790738
+    },
+    "xgboost_at_saved_threshold": {
+        "PR_AUC": 0.3507331133926497,
+        "ROC_AUC": 0.881012950244468,
+        "Precision": 0.3160726294552791,
+        "Recall": 0.4548753931768691,
+        "F1": 0.37297887114373574
+    },
+    "hybrid_at_0.5": {
+        "PR_AUC": 0.3327013653704948,
+        "ROC_AUC": 0.8748758251824998,
+        "Precision": 0.11050006394679626,
+        "Recall": 0.836196467457053,
+        "F1": 0.19520460899771244
+    },
+    "hybrid_best_validation_threshold": 0.7967692852020264,
+    "hybrid_at_best_validation_threshold": {
+        "PR_AUC": 0.3327013653704948,
+        "ROC_AUC": 0.8748758251824998,
+        "Precision": 0.30448873764381784,
+        "Recall": 0.45463343818049845,
+        "F1": 0.36471273291925466
+    },
+    "note": "Exploratory validation results. Hybrid threshold is selected on this validation set; use an untouched test set for final claims."
+}
