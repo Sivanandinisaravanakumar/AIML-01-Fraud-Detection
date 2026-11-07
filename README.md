@@ -77,6 +77,3 @@ Accepts transaction features (`Time`, `V1`–`V28`, `Amount`) and returns:
 
 ## Dataset
 Credit Card Fraud Detection dataset from the ULB Machine Learning Group, containing anonymized transaction features.
-
-## Disclaimer
-This project is developed for educational and demonstration purposes. It is not a certified fraud detection solution.
